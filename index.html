@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+  <body>
+    <header>
+      <h1>Developer's Name</h1>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="AboutMe.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Resume.html">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container my-5">
+      <section id="about-section">
+        <h2>About Me</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="https://path/to/recent/photo" alt="Developer's Avatar" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-sm-8">
+            <p>Short bio about the developer.</p>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio-section" style="display:none">
+        <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="https://path/to/application/1" alt="Application 1" class="img-fluid">
+          </div>
+          <div class="col-sm-8">
+            <h3>Application 1 Title</h3>
+            <p>Description of Application 1</p>
+            <a href="https://path/to/deployed/application/1" class="btn btn-primary mr-2">Live Demo</a>
+            <a href="https://path/to/github/repository/1" class="btn btn-secondary">GitHub Repository</a>
+          </div>
+        </div>
+        <!-- Repeat for six applications -->
+      </section>
+      <section id="contact-section" style="display:none">
+        <h2>Contact</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+        </form>
+      </section>
+      <footer>
+        <ul class="list-unstyled d-flex justify-content-center">
+          <li><a href="https://github.com/developer"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://linkedin.com/in/developer"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://third/platform/profile"><i class="bi bi-box-arrow-up-right"></i></a></li>
+        </ul>
+      </footer>
+
+            </body>
+            </html>
+              
